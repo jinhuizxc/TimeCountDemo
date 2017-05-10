@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+<ScrollView 
+	    android:layout_width="fill_parent"
+	     android:orientation="vertical"
+	     android:layout_gravity="center_horizontal"
+           android:layout_height="150dip">
+		<LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:gravity="center_horizontal"
+		    android:paddingLeft="3dp" >
+
+	     <RadioGroup
+	         android:id="@+id/rg"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:orientation="vertical" >
+
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r1"
+            android:text="不提前"
+            android:checked="true"/>
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r2"
+            android:text="提前5分钟"/>
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r3"
+            android:text="提前10分钟"/>
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r4"
+            android:text="提前15分钟"/>
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r5"
+            android:text="提前30分钟"/>
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r6"
+            android:text="提前一个小时"/>
+    </RadioGroup>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
